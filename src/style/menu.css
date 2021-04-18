@@ -1,0 +1,54 @@
+.side-menu .menu-header {
+  height: 60px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.side-menu .menu-toggle i {
+  font-size: 35px;
+  cursor: pointer;
+  -webkit-transform: translateX(-11px);
+  transform: translateX(-11px);
+}
+
+.side-menu .menu-item i {
+  font-size: 20px;
+}
+
+.side-menu .break .break-title {
+  padding: 10px;
+  display: none;
+}
+
+.show-menu {
+  width: 210px;
+}
+
+.show-break-title {
+  padding: 10px;
+  display: block !important;
+}
+
+.show-break {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 9px 0;
+}
+
+.show-menu-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.show-menu-title {
+  display: block !important;
+}

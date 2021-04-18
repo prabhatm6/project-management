@@ -1,0 +1,28 @@
+.forgot__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100% !important; */
+  }
+  
+  .forgot__form{
+    height: 20%;
+    width: 70%;
+    /* background-color: red; */
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .forgot__form input{
+    padding: 10px 6px;
+    width: 100%;
+    font-family: inherit;
+  }
+  
+  .forgot__form button{
+    padding:10px;
+    font-family: inherit;
+  }

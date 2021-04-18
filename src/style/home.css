@@ -1,0 +1,124 @@
+.main {
+  margin: 0 auto;
+  background-color: #f3f6fb;
+  width: 93%;
+  height: 97%;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  padding: 40px 65px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, 200px);
+  grid-gap: 50px;
+}
+
+.main__card {
+  background-color: #fff;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.card__due {
+}
+
+.card__btn {
+  font-family: inherit;
+  font-weight: 600;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: #7b68ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* description */
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f6fb;
+  height: 90%;
+  width: 90%;
+}
+
+.desc__card {
+  height: 40%;
+  background-color: #fff;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.edit {
+  background-color: #fff;
+  width: 30%;
+  height: 60%;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.edit form {
+  padding: 40px 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.desc__input-group {
+  width: 100%;
+}
+
+.desc__input-group input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
+}
+
+.edit button {
+  padding: 10px;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.desc__body {
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.desc__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.desc__due {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.desc__about {
+  font-size: 18px;
+  font-weight: 500;
+  width: 70%;
+}
